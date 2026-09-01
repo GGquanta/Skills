@@ -1,0 +1,21 @@
+{
+  "name": "ggquanta-skills",
+  "owner": {
+    "name": "GGquanta"
+  },
+  "metadata": {
+    "description": "Agent skills collection",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "description": "Collection of agent skills, including iCraft 3D architecture diagrams",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/icraft-3d-architecture"
+      ]
+    }
+  ]
+}
